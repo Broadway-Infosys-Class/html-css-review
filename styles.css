@@ -1,0 +1,44 @@
+/* CSS for Table */
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th , td {
+    border: 1px solid black;
+}
+
+/* css with classes */
+
+.text {
+    font-size: 20px;
+}
+
+.bold-text {
+    font-weight: 900;
+}
+
+/* css with classes 2 */
+
+.box {
+    height: 100px;
+    width: 100px;
+    
+    margin: 10px;
+}
+.green {
+    background: rgb(74, 194, 38);
+}
+.red {
+    background: red;
+}
+
+.green .normal {
+    font-weight: 500;
+}
+
+.red .normal {
+    font-weight: 900;
+}
