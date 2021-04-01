@@ -42,3 +42,40 @@ th , td {
 .red .normal {
     font-weight: 900;
 }
+
+/* calculator */
+
+.wrapper {
+    height: 100vh;
+    width: 600px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.number {
+    padding: 45px;
+    margin: 5px;
+}
+#result {
+    max-width: 100%;
+    margin: 5px;
+    height: 50px;
+    font-size: 26px;
+}
+
+/* visiting card */
+
+.card-wrapper {
+    height: 200px;
+    width: 400px;
+    background: #ddbdaa4f;
+}
+
+.visiting-card {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
