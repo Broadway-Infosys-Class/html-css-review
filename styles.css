@@ -64,3 +64,18 @@ th , td {
     height: 50px;
     font-size: 26px;
 }
+
+/* visiting card */
+
+.card-wrapper {
+    height: 200px;
+    width: 400px;
+    background: #ddbdaa4f;
+}
+
+.visiting-card {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
