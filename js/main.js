@@ -18,7 +18,7 @@ $(function () {
 
       } else {
 
-        //if it is not the forst operator entered.
+        //if it is not the first operator entered.
         $("#result").val(eval($("#result").val()) + $(this).text());
       }
 
